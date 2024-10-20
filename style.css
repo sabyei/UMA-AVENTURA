@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin-top: 50px;
+  }
+  
+  .botao {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #3700b3;
+  }
+  
+  body.inicio { background-color: lightgray; }
+  body.rio { background-color: lightblue; }
+  body.pernambuco { background-color: coral; }
+  body.amazonia { background-color: forestgreen; }
+  body.cachoeira { background-color: aqua; }
+  body.cidade-perdida { background-color: gold; }
+  body.fim-trilha { background-color: darkgreen; color: white; }
+  
